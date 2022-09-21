@@ -1,0 +1,39 @@
+getgenv().Settings = {
+    ['Key'] = "#Ac8DgN7aPfpU^eWXPwaGc2*zyt3p1", -- Get This in #key
+    ['Controller'] = 1640208335, -- Controller ID
+    ['User'] = "Iieutenant_GeneraI", -- Controller User
+    ['Prefix'] = "!", -- Chat Prefix
+    ['FPS'] = 10, -- FPS for ALT's
+    ['Advert'] = ".gg/halloweens", -- Your Advert
+    ['Dance'] = "rbxassetid://12345", -- Your Emote ID (Tutorial on How to Get - https://www.youtube.com/watch?v=-immkhRI2Vk)
+    ['MoreCPU'] = "true", -- Destroys Map on ALT's to Save More CPU
+}
+
+getgenv().Alts = { -- Max ALT's is 38
+    Alt1 = 3366239478,
+} -- To Add More ALT's Do "Alt2 = altid," And So On
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/halloweevn/SpookyControl/main/Script/v2'))()
+
+
+--1. drop -- Drops 7K on ALT's
+--2. stop -- Stops Dropping All Cash (Including Main)
+--3. mdrop -- Drops 7K on Main
+--4. setup {admin, bank, school, train, basket} -- Setups ALT's at Location
+--5. bring -- Brings ALT's to Controller
+--6. wallet on/off -- Equips/Unequips Wallet on ALT's
+--7. block on/off -- Toggles Block/Unblock on ALT's
+--8. freeze on/off -- Freeze/Unfreezes ALT's
+--9. reset -- Kills ALT's
+--10. kick -- Kicks ALT's
+--11. e dance -- Makes ALT's Dance
+--12. airlock on/off -- Makes ALT's Float
+--13. god -- Makes ALT's Godmode
+--14. advert on/off -- Makes ALT's Spam Advert Message
+--15. mask -- Makes ALT's Purchase and Equip Invisble Mask
+--16. crash {swag, encrypt} -- Makes Controller + ALT 1 and ALT 2 Load Crasher
+--17. lowgfx -- Makes Controllers Screen EXTRA Low GFX
+--18. destroycash -- Destroys Controllers Screens Cash (Only for You)
+--19. destroymap -- Destroys Controllers Map (CPU SAVER)
+--20. gui on/off -- Loads GUI On Controller
+
